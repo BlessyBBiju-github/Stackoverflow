@@ -189,7 +189,7 @@ body{
     padding: 2px 0px 13px 0px;
 	
 }
-.footer{
+.footer1{
     border-top: 2px solid rgb(235, 235, 235);
     border-left: 2px solid rgb(235, 235,235);
     border-bottom:2px solid rgb(235, 235, 235);
@@ -197,13 +197,13 @@ body{
     padding: 8px;
 }
 
-.footer b{
+.footer1 b{
     color:black;
 	font-weight: bold;
 	font-size: small;
 }
 
-.footer p{
+.footer1 p{
     padding: 3px;
 }
 .sideBar_footer{
@@ -572,7 +572,7 @@ body{
      font-weight:normal;
 }
 .viewBadge{
-	margin-left:460px;
+	     margin-left:460px;
           font-size:medium;
           font-weight:normal;
 }
@@ -643,4 +643,406 @@ body{
 	margin-right: 40px;
 	border: 1px solid rgba(129, 129, 129, 0.2);
 	border-radius: 5px;
+}
+.badgeMain {
+	width: 210px;
+	padding-right: 10px;
+	margin-right: 40px;
+	border: 1px solid rgba(129, 129, 129, 0.2);
+	border-radius: 5px;
+}
+.badgeMain img {
+	padding-top: 2px;
+	width: 50px;
+}
+.gold img {
+	width: 50px;
+	padding: 5px;
+}
+
+.gold {
+	display: flex;
+}
+.dotGold {
+	font-size: 18px;
+	color: #FFD700;
+}
+.goldSub {
+	margin-left: 7px;
+	padding-top: 3px;
+}
+
+.badgeText {
+	font-size: small;
+
+}
+
+.buttonBadge {
+	display: flex;
+	width: 200px;
+	margin-left: 7px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	text-align: right;
+}
+
+.badgeSpaceDelegate {
+	margin-left: 60px;
+	font-size: 10px;
+}
+
+.badgeSpaceInherit {
+	margin-left: 54px;
+	font-size: 10px;
+}
+
+.badgeSpaceCast {
+	margin-left: 69px;
+	font-size: 10px;
+}
+.silver img {
+	width: 50px;
+	padding: 5px;
+}
+
+.silver{
+	display: flex;
+}
+.dotSilver{
+	font-size: 18px;
+	color: #FFD700;
+}
+.silverSub {
+	margin-left: 7px;
+	padding-top: 3px;
+}
+.bronze img {
+	width: 50px;
+	padding: 5px;
+}
+
+.bronze {
+	display: flex;
+}
+.dotBronze {
+	font-size: 18px;
+	color: #FFD700;
+}
+.topTag {
+	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 263px;
+	font-size: 21px;
+
+}
+
+.topTagSpace {
+	padding-left: 590px;
+	color: #818181;
+	font-size: 12px;
+}
+
+
+.dotGold {
+	font-size: 18px;
+	color: #FFD700;
+}
+
+.dotSilver {
+	font-size: 18px;
+	color: #c0c0c0;
+}
+
+.dotBronze {
+	font-size: 18px;
+	color: #d1a684;
+}
+
+.tagStart {
+	display: flex;
+       
+}
+
+.topTagTable {
+	border-collapse: collapse;
+	width: 750px;
+	border: 1px solid rgba(129, 129, 129, 0.2);
+	border-radius: 4px;
+	z-index: 10;
+	margin-top: 5px;
+	margin-left: 270px;
+}
+
+.topTagTable td {
+	padding: 5px;
+	border-bottom: 1px solid rgba(129, 129, 129, 0.2);
+}
+
+.score {
+	text-align: right;
+}
+
+.tag {
+	margin: 5px;
+}
+
+.tag button {
+	color: #2c5ca2;
+	background-color: #e1ecf4;
+	border: hidden;
+	border-radius: 3px;
+	padding: 4px 5px;
+}
+
+.tag button:hover {
+	background-color: #d0e3f1;
+}
+
+.tagText {
+	color: #6a737c;
+	font-size: 13px;
+	padding-right: 10px;
+}
+.topPost {
+	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 263px;
+	font-size: 21px;
+}
+
+.topPost p {
+	font-size: 13px;
+}
+
+.blue {
+	color: #0074cc;
+}
+
+.topPostFlex {
+	display: flex;
+}
+
+.topPost {
+	width: 300px;
+}
+
+.topPostButtonTableOne {
+	border-collapse: collapse;
+	width: 195px;
+	border: 1px solid rgba(129, 129, 129, 0.2);
+	border-radius: 4px;
+	z-index: 10;
+	margin-top: 37px;
+	margin-left: 139px;
+	font-size: 11px;
+	color: #6a737c;
+}
+
+.topPostButtonTableOne td {
+	padding: 5px;
+	border: 1px solid rgba(129, 129, 129, 0.2);
+}
+
+
+.topPostButtonTableTwo {
+	border-collapse: collapse;
+	width: 95px;
+	border: 1px solid rgba(129, 129, 129, 0.2);
+	border-radius: 4px;
+	z-index: 10;
+	margin-top: 37px;
+	margin-left: 10px;
+	font-size: 11px;
+	color: #6a737c;
+}
+
+.topPostButtonTableTwo td {
+	padding: 5px;
+	border: 1px solid rgba(129, 129, 129, 0.2);
+}
+
+.dark {
+	background-color: #e3e6e8;
+	color: black;
+}
+
+.green img {
+	width: 20px;
+	padding: 5px;
+	padding-top: 10px;
+	padding-bottom: 3px;
+}
+
+.grey img {
+	width: 20px;
+	padding: 5px;
+	padding-top: 10px;
+	padding-bottom: 3px;
+}
+
+.greenNumber {
+	border: hidden;
+	border-radius: 4px;
+	background-color: #5eba7d;
+	padding: 5px;
+	color: white;
+	font-size: 12px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+
+.greyNumber {
+	border: 1px solid rgba(129, 129, 129, 0.4);
+	border-radius: 4px;
+	background-color: transparent;
+	padding: 5px;
+	color: black;
+	font-size: 12px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+
+.topPostTable {
+	border-collapse: collapse;
+	width: 750px;
+	border: 1px solid rgba(129, 129, 129, 0.2);
+	border-radius: 4px;
+	z-index: 10;
+	margin-top: 5px;
+	margin-left: 263px;
+}
+
+.topPostTable td {
+	padding: 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgba(129, 129, 129, 0.2);
+}
+
+.questionsSide {
+	color: #397bc9;
+	font-size: 15px;
+}
+
+.questions {
+	color: #397bc9;
+	font-size: 15px;
+}
+
+.postDate {
+	color: #6a737c;
+	font-size: 13px;
+}
+.topMetaFlex {
+	display: flex;
+}
+
+.topNetworkPosts {
+	display: flex;
+}
+
+.topMetaPost {
+	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 260px;
+	font-size: 21px;
+}
+
+.top1Post {
+	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 260px;
+	font-size: 21px;
+}
+
+.metaPostImage img {
+	padding-top: 27px;
+	margin-left: 545px;
+	width: 75px;
+}
+
+.networkViewPosts {
+	margin-top: 35px;
+	padding-left: 465px;
+	color: #818181;
+	font-size: 12px;
+}
+
+.topNetworkTable {
+	border-collapse: collapse;
+	width: 750px;
+	border: 1px solid rgba(129, 129, 129, 0.2);
+	border-radius: 4px;
+	z-index: 10;
+	margin-top: 5px;
+	margin-left: 263px;
+	margin-bottom: 20px;
+}
+
+.topNetworkTable td {
+	padding: 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgba(129, 129, 129, 0.2);
+}
+.footer {
+	display: flex;
+	background-color: #232629;
+	color: #babfc4;
+	font-size: 13px;
+}
+
+.footerLogo img {
+	width: 35px;
+	padding-left: 128px;
+	padding-top: 20px;
+}
+
+.footer h4 {
+	color: #babfc4;
+	font-size: 13px;
+	font-weight: 780;
+	margin: 25px;
+	margin-bottom: 15px;
+}
+
+.footer p {
+	font-size: 13px;
+	padding: 5px;
+	padding-left: 25px;
+	font-weight: 100;
+}
+
+.footerProduct {
+	padding-left: 40px;
+}
+
+.footerCompany {
+	padding-left: 50px;
+}
+
+.footerNetwork {
+	padding-left: 80px;
+}
+
+.footerSocial {
+	font-size: 11px;
+	font-weight: 100;
+	margin: 30px;
+	margin-left: 90px;
+	margin-bottom: 220px;
+}
+
+.social {
+	padding-right: 10px;
+}
+
+.footerRights {
+	margin: 90px;
+	margin-bottom: 50px;
+}
+
+.footerRights p {
+	font-size: 11px;
+	font-weight: 100;
+	padding: 0px;
+	margin: 0px;
 }
